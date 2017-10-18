@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parser.view.MainOverviewController">
+   <children>
+      <Button layoutX="325.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleZAHO" prefHeight="30.0" prefWidth="150.0" text="2G_Alarms_Parser" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button layoutX="340.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleRNCAlarms" prefHeight="30.0" prefWidth="150.0" text="3G_Alarms_Parser" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0" />
+      <TextArea editable="false" layoutX="14.0" layoutY="15.0" prefHeight="180.0" prefWidth="260.0" text="2G_Alarms_Parser:&#10;ZAHO;&#10;ZAHP:::&lt;DATE&gt;;&#10;ZEOL;&#10;ZEOH:&lt;DATE&gt;;&#10;3G_Alarms_Parser:&#10;Data from Fault Manager&#10;" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   </children>
+</AnchorPane>
